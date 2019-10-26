@@ -1,6 +1,8 @@
 function go() {
     new Audio('../mp3/glass_ping-Go445-1207030150.mp3').play();
 
+    document.getElementById("button").innerHTML = "Stand up!";
+
     function startTimer() {
 
         var text = document.getElementById("button").innerHTML;
@@ -13,5 +15,5 @@ function go() {
             new Audio('../mp3/UFO_Takeoff-Sonidor-1604321570.mp3').play();
         }
     }
-    setInterval(startTimer, 600000);
+    setInterval(startTimer, 5000);
 }
