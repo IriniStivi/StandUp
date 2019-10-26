@@ -22,15 +22,15 @@ body {
     top: 25vh; 
     left: 50%; 
     transform: translateX(-50%);
-    width: 50%;
+    width: 75%;
     height: auto;
     padding: 1rem;
-    font-size: 4rem;
+    font-size: 1.5rem;
     border-radius: 2rem;
     background:radial-gradient(#fccf31,#f55555);
     color: #fff;
     text-align: center;
-    letter-spacing: .5rem;
+    letter-spacing: .2rem;
 }
 
 p {
@@ -39,12 +39,14 @@ p {
 
 #start {
     position: absolute; 
-    top: 70vh; 
+    top: 50vh; 
     left: 50%; 
     transform: translateX(-50%);
-    font-size: 2rem;
+    width: 4rem;
+    height: 4rem;
+    font-size: 1rem;
     padding: 1rem;
-    border-radius: 1.5rem;
+    border-radius: 100%;
     color: #777;
     border: none;
     cursor: pointer;
