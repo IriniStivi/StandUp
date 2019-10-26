@@ -3,6 +3,12 @@
 function hide() {
     var element = document.getElementById("start");
     element.classList.add("hide");
+
+    var element = document.getElementById("duration");
+    element.classList.add("hide");
+
+    var element = document.getElementById("set-button");
+    element.classList.add("hide");
   }
 
 function set() {
@@ -12,6 +18,7 @@ function set() {
 }
 
 function start() {
+    document.getElementById("minutes").innerHTML = "You chose a duration of " + (t/60000) + " minutes.";
     console.log(t);
     new Audio('../mp3/Bike Horn-SoundBible.com-602544869.mp3').play();
 
