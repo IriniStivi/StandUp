@@ -48,6 +48,7 @@ p {
     padding: 1rem;
     border-radius: 100%;
     color: #777;
+    background-color: #fff;
     border: none;
     cursor: pointer;
     transition: .2s ease-in-out;
