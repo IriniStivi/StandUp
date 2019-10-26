@@ -17,9 +17,19 @@ function set() {
     return t;
 }
 
+console.log(t); // to make sue t is set globally
+
 function start() {
-    document.getElementById("minutes").innerHTML = "You chose a duration of " + (t/60000) + " minutes.";
-    console.log(t);
+
+    // set "minute" to plural if minutes > 1
+    if (t/60000 > 1) {
+        post = "s";
+    } else {
+        post = "";
+    }
+
+    document.getElementById("minutes").innerHTML = "You chose a duration of " + (t/60000) + " minute" + post + ".";
+
     new Audio('../mp3/Bike Horn-SoundBible.com-602544869.mp3').play();
 
     document.getElementById("display").innerHTML = "Stand up!";
@@ -32,9 +42,11 @@ function start() {
         if (text === "Stand up!") {
             document.getElementById("display").innerHTML = "Sit down.";
             new Audio('../mp3/descending_craft-Sonidor-991848481.mp3').play();
+            document.getElementById("minutes").innerHTML = "Now sit down for " + (t/60000) + " minute" + post + ".";
         } else {
             document.getElementById("display").innerHTML = "Stand up!";
             new Audio('../mp3/UFO_Takeoff-Sonidor-1604321570.mp3').play();
+            document.getElementById("minutes").innerHTML = "Stand up for " + (t/60000) + " minute" + post + ".";
         }
     }
     setInterval(startTimer, t);
