@@ -25,7 +25,7 @@ body {
     width: 75%;
     height: auto;
     padding: 1rem;
-    font-size: 1.5rem;
+    font-size: 3rem;
     border-radius: 2rem;
     background:radial-gradient(#fccf31,#f55555);
     color: #fff;
@@ -58,6 +58,10 @@ p {
     background-color: lightgreen;
     color: #fff;
     box-shadow: 0px 4px 16px #777;
+}
+
+.hide {
+    display: none;
 }
 
 /* MODAL */

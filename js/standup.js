@@ -1,3 +1,8 @@
+function hide() {
+    var element = document.getElementById("start");
+    element.classList.add("hide");
+  }
+
 function start() {
     new Audio('../mp3/Bike Horn-SoundBible.com-602544869.mp3').play();
 
