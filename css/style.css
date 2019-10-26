@@ -18,15 +18,11 @@ body {
 }
 
 #display {
-    position: absolute; 
-    top: 25vh; 
-    left: 50%; 
-    transform: translateX(-50%);
     width: 75%;
     height: auto;
     padding: 1rem;
-    font-size: 3rem;
-    border-radius: 2rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
     background:radial-gradient(#fccf31,#f55555);
     color: #fff;
     text-align: center;
@@ -38,10 +34,6 @@ p {
 }
 
 #start {
-    position: absolute; 
-    top: 50vh; 
-    left: 50%; 
-    transform: translateX(-50%);
     width: 4rem;
     height: 4rem;
     font-size: 1rem;
