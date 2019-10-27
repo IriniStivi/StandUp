@@ -1,5 +1,5 @@
 # StandUp
-##A small app to ensure you don't sit all day.
+## A small app to ensure you don't sit all day.
 
 Working at a height adjustable desk? Caught yourself again and again sitting more than half of your work day anyways?
 Been there, too. But not for much longer!
