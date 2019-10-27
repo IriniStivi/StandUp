@@ -6,6 +6,6 @@ Been there, too. But not for much longer!
 
 **Just open it in a separate window and minimize it to a corner. It will remind you to stand up after a number of minutes you define at start.**
 
-![Screenshot of Stand Up App](https://github.com/IriniStivi/StandUp/assets/screenshot.png "Screenshot")
+![Screenshot of Stand Up App](/assets/screenshot.png?raw=true "Screenshot")
 
 (The app plays sounds. These are not played on iOS devices. I don't think that's a problem, as I wrote it for the desk people folks sitting at a Mac, PC or Linux system.)
