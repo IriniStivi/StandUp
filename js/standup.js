@@ -19,6 +19,10 @@ function set() {
 
 console.log(t); // to make sue t is set globally
 
+function setDur() {
+    document.getElementById("display").innerHTML = "Ready to go!";
+}
+
 function start() {
 
     // set "minute" to plural if minutes > 1
