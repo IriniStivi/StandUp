@@ -11,13 +11,16 @@ function hide() {
     element.classList.add("hide");
   }
 
+function show() {
+    var element = document.getElementById("restart");
+    element.classList.add("show"); 
+}
+
 function set() {
     t = parseInt((document.getElementById("duration").value) * 60000);
     console.log("Input: " + t); // to make sure user input got logged
     return t;
 }
-
-console.log(t); // to make sue t is set globally
 
 function setDur() {
     document.getElementById("display").innerHTML = "Ready to go!";

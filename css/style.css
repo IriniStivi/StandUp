@@ -18,7 +18,7 @@ body {
 }
 
 #display {
-    width: 75%;
+    width: 90%;
     height: auto;
     padding: 1rem;
     font-size: 1.5rem;
@@ -63,4 +63,15 @@ p {
     color: #333;
     font-family: sans-serif;
     font-weight: normal;
+}
+
+#restart {
+    font-weight: 100;
+    color: #fff;
+    letter-spacing: 0.2rem;
+    opacity: 0;
+}
+
+.show {
+    opacity: 0.5 !important;
 }
