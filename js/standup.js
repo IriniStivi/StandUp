@@ -26,6 +26,11 @@ function setDur() {
     document.getElementById("display").innerHTML = "Ready to go!";
 }
 
+// array of sentences to add to output
+var sit = ["You've earned it!" , "Don't forget to stretch from time to time." , " Have a drink while you sit."];
+
+var stand = ["Move your weight from side to side." , "Avoid putting your weight just on one side." , "Bounce from heels to toes. Try it!"];
+
 function start() {
 
     // set "minute" to plural if minutes > 1
@@ -44,16 +49,22 @@ function start() {
 
     function startTimer() {
 
+        var sitItem = sit[Math.floor(Math.random() * sit.length)];
+
+        var standItem = stand[Math.floor(Math.random() * stand.length)];
+
         var text = document.getElementById("display").innerHTML;
 
         if (text === "Stand up!") {
             document.getElementById("display").innerHTML = "Sit down.";
             new Audio('../mp3/descending_craft-Sonidor-991848481.mp3').play();
-            document.getElementById("minutes").innerHTML = "Now sit down for " + (t/60000) + " minute" + post + ".";
+            document.getElementById("minutes").innerHTML = "Now sit down for " + (t/60000) + " minute" + post + ".&nbsp;";
+            document.getElementById("added").innerHTML = sitItem;
         } else {
             document.getElementById("display").innerHTML = "Stand up!";
             new Audio('../mp3/UFO_Takeoff-Sonidor-1604321570.mp3').play();
-            document.getElementById("minutes").innerHTML = "Stand up for " + (t/60000) + " minute" + post + ".";
+            document.getElementById("minutes").innerHTML = "Stand up for " + (t/60000) + " minute" + post + ".&nbsp;";
+            document.getElementById("added").innerHTML = standItem;
         }
     }
     setInterval(startTimer, t);
