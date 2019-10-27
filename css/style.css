@@ -76,3 +76,10 @@ p {
 .reveal {
     opacity: 0.5 !important;
 }
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 100px;
+    width: 100%
+}
