@@ -29,10 +29,10 @@ function setDur() {
 function start() {
 
     // set "minute" to plural if minutes > 1
-    if (t/60000 > 1) {
-        post = "s";
-    } else {
+    if (t/60000 === 1) {
         post = "";
+    } else {
+        post = "s";
     }
 
     document.getElementById("minutes").innerHTML = "You chose a duration of " + (t/60000) + " minute" + post + ".";
