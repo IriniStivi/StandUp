@@ -9,4 +9,4 @@ Been there, too. But not for much longer!
 
 ![Screenshot of Stand Up App](/assets/screenshot.png?raw=true "Screenshot")
 
-(The app plays sounds. These are not played on iOS devices. I don't think that's a problem, as I wrote it for the desk people folks sitting at a Mac, PC or Linux system.)
+(The sound effects are not played on iOS devices. I don't think that's a problem, as I wrote it for the desk people folks sitting at a Mac, PC or Linux system.)
