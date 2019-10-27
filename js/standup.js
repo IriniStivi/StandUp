@@ -37,7 +37,7 @@ function start() {
 
     document.getElementById("minutes").innerHTML = "You chose a duration of " + (t/60000) + " minute" + post + ". <br> Here we go!";
 
-    new Audio('../mp3/BikeHorn-SoundBible.com-602544869.mp3').play();
+    new Audio('../mp3/BikeHorn-602544869.mp3').play();
 
     document.getElementById("display").innerHTML = "Stand up!";
     
