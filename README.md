@@ -4,7 +4,7 @@
 Working at a height adjustable desk? Caught yourself again and again sitting more than half of your work day anyways?
 Been there, too. But not for much longer!
 
-**Just open it in a separate window and minimize it to a corner. It will remind you to stand up after a number of minutes you define at start.**
+**Just open it in a separate window and minimize it to a corner. It will remind you to stand up after a number of minutes you define at start.** (To be able to hear the sounds, the app has to be downloaded and run locally. See Issue # for more info.)
 
 ![Screenshot of Stand Up App](/assets/screenshot.png?raw=true "Screenshot")
 
