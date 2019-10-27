@@ -13,7 +13,7 @@ function hide() {
 
 function show() {
     var element = document.getElementById("restart");
-    element.classList.add("show"); 
+    element.classList.add("reveal"); 
 }
 
 function set() {
